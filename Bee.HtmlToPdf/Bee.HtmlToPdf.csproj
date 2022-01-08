@@ -9,6 +9,8 @@ Wrapper over https://github.com/CodeMazeBlog/create-pdf-with-netcore/tree/master
     <AssemblyVersion>1.0.0.1</AssemblyVersion>
     <PackageReleaseNotes>Fixed Threading Issue</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/fasilmarshooq/Bee.HtmlToPdf</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/fasilmarshooq/Bee.HtmlToPdf</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
