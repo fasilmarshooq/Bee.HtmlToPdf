@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Bee.HtmlToPdf": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

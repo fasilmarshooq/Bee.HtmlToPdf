@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Bee.HtmlToPdf
+/Bee.HtmlToPdf/bin/Debug
+/Bee.HtmlToPdf/obj
+/Bee.HtmlToPdf.Tests/bin/Debug/net5.0
+/Bee.HtmlToPdf.Tests/obj

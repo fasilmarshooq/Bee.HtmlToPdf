@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Fasil Marshooq</Authors>
+    <Description>
+Wrapper over https://github.com/CodeMazeBlog/create-pdf-with-netcore/tree/master/PDF_Generator so that configurations can be simplified.</Description>
+    <PackageTags>HtmlToPdf pdfGeneration DinkToPdf invoiceGeneration PdfGenerator</PackageTags>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <PackageReleaseNotes>Fixed Threading Issue</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="CutomGenDll\libwkhtmltox.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="CutomGenDll\libwkhtmltox.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DinkToPdf" Version="1.0.8" />
+  </ItemGroup>
+
+</Project>
