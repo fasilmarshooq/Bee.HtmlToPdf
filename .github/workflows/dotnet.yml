@@ -16,9 +16,7 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --no-restore
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet build --configuration Release --no-restore
     - name: Publish package
       uses: brandedoutcast/publish-nuget@v2.5.2
       with:
