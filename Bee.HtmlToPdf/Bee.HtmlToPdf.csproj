@@ -3,14 +3,15 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <Authors>Fasil Marshooq</Authors>
-    <Description>
-Wrapper over https://github.com/CodeMazeBlog/create-pdf-with-netcore/tree/master/PDF_Generator so that configurations can be simplified.</Description>
+    <Description>Simple Solution to generate pdf from html string , it is a wrapper over https://github.com/CodeMazeBlog/create-pdf-with-netcore which uses native lib. Configuration was made simple using nuget install</Description>
     <PackageTags>HtmlToPdf pdfGeneration DinkToPdf invoiceGeneration PdfGenerator</PackageTags>
     <AssemblyVersion>1.0.0.1</AssemblyVersion>
     <PackageReleaseNotes>Fixed Threading Issue</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/fasilmarshooq/Bee.HtmlToPdf</PackageProjectUrl>
     <RepositoryUrl>https://github.com/fasilmarshooq/Bee.HtmlToPdf</RepositoryUrl>
+    <FileVersion>1.0.0.1</FileVersion>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
