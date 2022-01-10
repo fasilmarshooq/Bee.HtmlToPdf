@@ -29,11 +29,10 @@ namespace Bee.HtmlToPdf
                 string tempDllLoaderPath = ExtractDll();
                 return LoadUnmanagedDll(tempDllLoaderPath);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                //Log.Fatal(ex.Message, ex);
+                throw new NativeDllLoadException();
             }
-            return default;
         }
 
         private static string ExtractDll()
